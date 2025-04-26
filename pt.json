@@ -26,15 +26,13 @@
         "<button>APIs (básico)</button>",
         "<button>Computação em Nuvem (básico)</button>"
     ],
-    "contato": [
-        {
-            "email": "bryanmacieldealmeida06@gmail.com",
-            "git": "Bryan-M-Almeida",
-            "linkedin": "https://www.linkedin.com/in/bryan-maciel-de-almeida",
-            "telefone": "+55 22 99780-5082",
-            "telefoneSecundario": "+54 9 341 752-2488"
-        }
-    ],
+    "contato": {
+        "email": "bryanmacieldealmeida06@gmail.com",
+        "git": "Bryan-M-Almeida",
+        "linkedin": "https://www.linkedin.com/in/bryan-maciel-de-almeida",
+        "telefone": "+55 22 99780-5082",
+        "telefoneSecundario": "+54 9 341 752-2488"
+    },
     "imagem": "imagens/foto.jpeg",
     "experience": [
         {
@@ -61,33 +59,5 @@
         "GameDev",
         "React",
         "SQL"
-    ],
-    "habilidades_tecnicas": {
-        "linguagens": [
-            "Java",
-            "JavaScript",
-            "TypeScript",
-            "Python",
-            "HTML",
-            "CSS"
-        ],
-        "frameworks": [
-            "React",
-            "Tailwind CSS",
-            "Node.js (básico)"
-        ],
-        "ferramentas": [
-            "Git",
-            "GitHub",
-            "Vercel",
-            "Firebase (básico)"
-        ],
-        "bancos_de_dados": [
-            "MySQL (básico)"
-        ],
-        "outros": [
-            "Conceitos básicos de APIs",
-            "Computação em nuvem"
-        ]
-    }
+    ]
 }

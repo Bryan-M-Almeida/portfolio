@@ -1,0 +1,91 @@
+{
+    "name": "Bryan Maciel de Almeida",
+    "age": 18,
+    "location": "Rosario, Argentina",
+    "goals": [
+        "Work as a Junior Front-End Developer focused on modern technologies and contribute with scalable and innovative solutions in web projects or digital products"
+    ],
+    "college": "UNR-FCEIA",
+    "major": "Computer Science",
+    "position": "front-end developer",
+    "skills": [
+        "<button>Java</button>",
+        "<button>JavaScript</button>",
+        "<button>TypeScript</button>",
+        "<button>Python</button>",
+        "<button>HTML</button>",
+        "<button>CSS</button>",
+        "<button>React</button>",
+        "<button>Tailwind CSS</button>",
+        "<button>Node.js (basic)</button>",
+        "<button>Git</button>",
+        "<button>GitHub</button>",
+        "<button>Vercel</button>",
+        "<button>Firebase (basic)</button>",
+        "<button>MySQL (basic)</button>",
+        "<button>APIs (basic)</button>",
+        "<button>Computação em Nuvem (basic)</button>"
+    ],
+    "contact": {
+        "email": "bryanmacieldealmeida06@gmail.com",
+        "git": "Bryan-M-Almeida",
+        "linkedin": "https://www.linkedin.com/in/bryan-maciel-de-almeida",
+        "phone": "+55 22 99780-5082",
+        "altPhone": "+54 9 341 752-2488"
+    },
+    "image": "images/photo.jpeg",
+    "experience": [
+        {
+            "company": "Restaurant Ludwig Project",
+            "role": "Frontend Developer",
+            "years": 0.5
+        },
+        {
+            "company": "Fiverr",
+            "role": "Tech Freelancer",
+            "years": 1
+        }
+    ],
+    "projects": [
+        "Restaurant Ludwig site clone",
+        "Pokédex consuming API",
+        "Automatic carousel with JavaScript"
+    ],
+    "availableForHire": true,
+    "learning": [
+        "REST APIs",
+        "Back-end with Node.js",
+        "Databases",
+        "GameDev",
+        "React",
+        "SQL"
+    ],
+    "technical_skills": {
+        "languages": [
+            "Java",
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "HTML",
+            "CSS"
+        ],
+        "frameworks": [
+            "React",
+            "Tailwind CSS",
+            "Node.js (basic)"
+        ],
+        "tools": [
+            "Git",
+            "GitHub",
+            "Vercel",
+            "Firebase (basic)"
+        ],
+        "databases": [
+            "MySQL (basic)"
+        ],
+        "others": [
+            "Basic API concepts",
+            "Cloud computing"
+        ]
+    }
+}

@@ -18,7 +18,7 @@ function espanol() {
 
 }
 
-fetch('dados.json')
+fetch('pt.json')
     .then(response => response.json())
     .then(data => {
 
@@ -31,6 +31,6 @@ fetch('dados.json')
         objetivo.innerHTML = data.goals;
         skills.innerHTML = data.skills.join("<br>");
         foto.src = data.imagem;
-        
+
 
     });

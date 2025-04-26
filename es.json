@@ -1,0 +1,91 @@
+{
+    "nombre": "Bryan Maciel de Almeida",
+    "edad": 18,
+    "ubicación": "Rosario, Argentina",
+    "objetivos": [
+        "Trabajar como Desarrollador Front-End Junior enfocado en tecnologías modernas y contribuir con soluciones escalables e innovadoras en proyectos web o productos digitales"
+    ],
+    "facultad": "UNR-FCEIA",
+    "carrera": "Ciencias de la Computación",
+    "cargo": "desarrollador front-end",
+    "habilidades": [
+        "<button>Java</button>",
+        "<button>JavaScript</button>",
+        "<button>TypeScript</button>",
+        "<button>Python</button>",
+        "<button>HTML</button>",
+        "<button>CSS</button>",
+        "<button>React</button>",
+        "<button>Tailwind CSS</button>",
+        "<button>Node.js (básico)</button>",
+        "<button>Git</button>",
+        "<button>GitHub</button>",
+        "<button>Vercel</button>",
+        "<button>Firebase (básico)</button>",
+        "<button>MySQL (básico)</button>",
+        "<button>APIs (básico)</button>",
+        "<button>Computación en la Nube (básico)</button>"
+    ],
+    "contacto": {
+        "correo": "bryanmacieldealmeida06@gmail.com",
+        "git": "Bryan-M-Almeida",
+        "linkedin": "https://www.linkedin.com/in/bryan-maciel-de-almeida",
+        "teléfono": "+55 22 99780-5082",
+        "teléfonoSecundario": "+54 9 341 752-2488"
+    },
+    "imagen": "imágenes/foto.jpeg",
+    "experiencia": [
+        {
+            "empresa": "Proyecto Restaurante Ludwig",
+            "rol": "Desarrollador Frontend",
+            "años": 0.5
+        },
+        {
+            "empresa": "Fiverr",
+            "rol": "Freelancer en tecnología",
+            "años": 1
+        }
+    ],
+    "proyectos": [
+        "Clon del sitio Restaurante Ludwig",
+        "Pokédex con consumo de API",
+        "Carrusel automático con JavaScript"
+    ],
+    "disponibleParaContratación": true,
+    "aprendiendo": [
+        "APIs REST",
+        "Back-end con Node.js",
+        "Base de datos",
+        "Desarrollo de Juegos",
+        "React",
+        "SQL"
+    ],
+    "habilidades_tecnicas": {
+        "lenguajes": [
+            "Java",
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "HTML",
+            "CSS"
+        ],
+        "frameworks": [
+            "React",
+            "Tailwind CSS",
+            "Node.js (básico)"
+        ],
+        "herramientas": [
+            "Git",
+            "GitHub",
+            "Vercel",
+            "Firebase (básico)"
+        ],
+        "bases_de_datos": [
+            "MySQL (básico)"
+        ],
+        "otros": [
+            "Conceptos básicos de APIs",
+            "Computación en la nube"
+        ]
+    }
+}
