@@ -59,33 +59,5 @@
         "Desarrollo de Juegos",
         "React",
         "SQL"
-    ],
-    "habilidades_tecnicas": {
-        "lenguajes": [
-            "Java",
-            "JavaScript",
-            "TypeScript",
-            "Python",
-            "HTML",
-            "CSS"
-        ],
-        "frameworks": [
-            "React",
-            "Tailwind CSS",
-            "Node.js (básico)"
-        ],
-        "herramientas": [
-            "Git",
-            "GitHub",
-            "Vercel",
-            "Firebase (básico)"
-        ],
-        "bases_de_datos": [
-            "MySQL (básico)"
-        ],
-        "otros": [
-            "Conceptos básicos de APIs",
-            "Computación en la nube"
-        ]
-    }
+    ]
 }

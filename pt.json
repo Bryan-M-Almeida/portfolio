@@ -2,9 +2,8 @@
     "nome": "Bryan Maciel de Almeida",
     "age": 18,
     "location": "Rosário, Argentina",
-    "goals": [
-        "Atuar como Desenvolvedor Front-End Júnior com foco em tecnologias modernas e contribuir com soluções escaláveis e inovadoras em projetos web ou produtos digitais"
-    ],
+    "goals": "Meu objetivo é me posicionar como um desenvolvedor completo e estratégico, capaz de entregar soluções digitais que aliem alta performance técnica, visão de produto e impacto real nos negócios. Busco constantemente projetos desafiadores que me permitam expandir minha capacidade de análise, programação e arquitetura de sistemas, sempre com foco em eficiência, escalabilidade e inovação. Não me interesso por executar tarefas de forma mecânica: meu compromisso é entender o contexto, antecipar problemas e propor melhorias que gerem valor verdadeiro. Quero trabalhar em ambientes que valorizem velocidade, adaptabilidade e resultados tangíveis, e não apenas cumprimento de processos. Estou em formação contínua, tanto no domínio técnico — com ênfase em back-end, integração de APIs, inteligência artificial e automações — quanto em habilidades estratégicas como gestão de projetos ágeis e pensamento orientado a produto. Minha meta nos próximos anos é liderar iniciativas que ultrapassem o padrão comum de desenvolvimento, implementando soluções inteligentes que desafiem o mercado tradicional e que me posicionem como uma referência em tecnologia e inovação. A médio prazo, viso atuar em projetos globais, principalmente no ecossistema de tecnologia voltado à otimização de sistemas, desenvolvimento de plataformas escaláveis e criação de novos produtos digitais."
+,
     "faculdade": "UNR-FCEIA",
     "curso": "Ciência da computação",
     "cargo": "dev front-end",
@@ -23,7 +22,7 @@
         "<button>Vercel</button>",
         "<button>Firebase (básico)</button>",
         "<button>MySQL (básico)</button>",
-        "<button>APIs (básico)</button>",
+        "<button>APIs</button>",
         "<button>Computação em Nuvem (básico)</button>"
     ],
     "contato": {
@@ -34,22 +33,33 @@
         "telefoneSecundario": "+54 9 341 752-2488"
     },
     "imagem": "imagens/foto.jpeg",
-    "experience": [
-        {
-            "company": "Projeto Restaurante Ludwig",
-            "role": "Frontend Developer",
-            "years": 0.5
-        },
-        {
-            "company": "Fiverr",
-            "role": "Freelancer em tecnologia",
-            "years": 1
-        }
+    "experiences": [
+        "<a href=''><button>Desenvolvimento de Sites Responsivos</button></a>",
+        "<a href=''><button>Criação de Sistemas em JavaScript</button></a>",
+        "<a href=''><button>Projetos em Python para Automação e Cálculo de Impostos</button></a>",
+        "<a href=''><button>Design de Interfaces com HTML e CSS</button></a>",
+        "<a href=''><button>Integração de APIs e Consumo de Dados</button></a>",
+        "<a href=''><button>Desenvolvimento de Jogos Simples com Lógica de Programação</button></a>",
+        "<a href=''><button>Organização de Projetos e Otimização de Código</button></a>"
     ],
     "projects": [
-        "Clonagem do site Restaurante Ludwig",
-        "Pokédex com consumo de API",
-        "Carrossel automático com JavaScript"
+        "<a href=''><button>Portfólio</button></a>",
+        "<a href=''><button>Pokedex</button></a>",
+        "<a href=''><button>Site Restaurante Estudo (clone do Ludwig)</button></a>",
+        "<a href=''><button>Linktree simples</button></a>",
+        "<a href=''><button>Cálculo de Impostos</button></a>",
+        "<a href=''><button>Jogo da Memória</button></a>",
+        "<a href=''><button>Organizador de Tarefas</button></a>",
+        "<a href=''><button>Gerenciador Inteligente</button></a>",
+        "<a href=''><button>WishList</button></a>",
+        "<a href=''><button>Dark Mode</button></a>",
+        "<a href=''><button>Sistema de Voo</button></a>",
+        "<a href=''><button>Tarot (Projeto para Cliente)</button></a>",
+        "<a href=''><button>ImpostoPython</button></a>",
+        "<a href=''><button>Site inspirado na Nvidia</button></a>",
+        "<a href=''><button>Máquina de Refrigerante (Python)</button></a>",
+        "<a href=''><button>Login e Registro Responsivo</button></a>",
+        "<a href=''><button>Código de Botão com Posição Aleatória</button></a>"
     ],
     "availableForHire": true,
     "learning": [

@@ -59,33 +59,5 @@
         "GameDev",
         "React",
         "SQL"
-    ],
-    "technical_skills": {
-        "languages": [
-            "Java",
-            "JavaScript",
-            "TypeScript",
-            "Python",
-            "HTML",
-            "CSS"
-        ],
-        "frameworks": [
-            "React",
-            "Tailwind CSS",
-            "Node.js (basic)"
-        ],
-        "tools": [
-            "Git",
-            "GitHub",
-            "Vercel",
-            "Firebase (basic)"
-        ],
-        "databases": [
-            "MySQL (basic)"
-        ],
-        "others": [
-            "Basic API concepts",
-            "Cloud computing"
-        ]
-    }
+    ]
 }
