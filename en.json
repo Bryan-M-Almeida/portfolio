@@ -2,61 +2,70 @@
     "name": "Bryan Maciel de Almeida",
     "age": 18,
     "location": "Rosario, Argentina",
-    "goals": [
-        "Work as a Junior Front-End Developer focused on modern technologies and contribute with scalable and innovative solutions in web projects or digital products"
-    ],
-    "college": "UNR-FCEIA",
+    "goals": "My goal is to establish myself as a complete and strategic developer, capable of delivering digital solutions that combine high technical performance, product vision, and real business impact. I constantly seek challenging projects that allow me to expand my capacity in analysis, programming, and systems architecture, always focusing on efficiency, scalability, and innovation. I’m not interested in mechanical task execution: my commitment is to understand the context, anticipate problems, and propose improvements that generate real value. I want to work in environments that value speed, adaptability, and tangible results, not just process compliance. I’m in continuous development, both technically — specializing in back-end, API integration, AI, and automation — and strategically, with skills in agile project management and product-oriented thinking. In the coming years, I aim to lead initiatives that surpass traditional development standards, implementing smart solutions that challenge the market and position me as a tech and innovation reference. In the medium term, I intend to work on global projects, mainly in ecosystems focused on system optimization, scalable platform development, and new digital product creation.",
+    "university": "UNR-FCEIA",
     "major": "Computer Science",
-    "position": "front-end developer",
+    "position": "Front-end Developer",
     "skills": [
-        "<button>Java</button>",
-        "<button>JavaScript</button>",
-        "<button>TypeScript</button>",
-        "<button>Python</button>",
-        "<button>HTML</button>",
-        "<button>CSS</button>",
-        "<button>React</button>",
-        "<button>Tailwind CSS</button>",
-        "<button>Node.js (basic)</button>",
-        "<button>Git</button>",
-        "<button>GitHub</button>",
-        "<button>Vercel</button>",
-        "<button>Firebase (basic)</button>",
-        "<button>MySQL (basic)</button>",
-        "<button>APIs (basic)</button>",
-        "<button>Computação em Nuvem (basic)</button>"
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "HTML",
+        "CSS",
+        "React",
+        "Tailwind CSS",
+        "Node.js (basic)",
+        "Git",
+        "GitHub",
+        "Vercel",
+        "Firebase (basic)",
+        "MySQL (basic)",
+        "APIs",
+        "Cloud Computing (basic)"
     ],
     "contact": {
         "email": "bryanmacieldealmeida06@gmail.com",
-        "git": "Bryan-M-Almeida",
+        "github": "Bryan-M-Almeida",
         "linkedin": "https://www.linkedin.com/in/bryan-maciel-de-almeida",
-        "phone": "+55 22 99780-5082",
-        "altPhone": "+54 9 341 752-2488"
+        "phoneBrazil": "+55 22 99780-5082",
+        "phoneArgentina": "+54 9 341 752-2488"
     },
     "image": "images/photo.jpeg",
-    "experience": [
-        {
-            "company": "Restaurant Ludwig Project",
-            "role": "Frontend Developer",
-            "years": 0.5
-        },
-        {
-            "company": "Fiverr",
-            "role": "Tech Freelancer",
-            "years": 1
-        }
+    "experiences": [
+        "Responsive Website Development",
+        "System Development in JavaScript",
+        "Automation and Tax Calculation Projects with Python",
+        "Interface Design with HTML and CSS",
+        "API Integration and Data Consumption",
+        "Simple Game Development with Programming Logic",
+        "Project Organization and Code Optimization"
     ],
     "projects": [
-        "Restaurant Ludwig site clone",
-        "Pokédex consuming API",
-        "Automatic carousel with JavaScript"
+        "Portfolio",
+        "Pokédex",
+        "Restaurant Website (Ludwig Clone)",
+        "Simple Linktree",
+        "Tax Calculator",
+        "Memory Game",
+        "Task Organizer",
+        "Smart Manager",
+        "WishList",
+        "Dark Mode",
+        "Flight System",
+        "Tarot (Client Project)",
+        "Python Tax Project",
+        "Nvidia-Inspired Website",
+        "Soda Machine (Python)",
+        "Responsive Login and Registration",
+        "Random Button Position Code"
     ],
     "availableForHire": true,
-    "learning": [
+    "currentlyLearning": [
         "REST APIs",
         "Back-end with Node.js",
         "Databases",
-        "GameDev",
+        "Game Development",
         "React",
         "SQL"
     ]

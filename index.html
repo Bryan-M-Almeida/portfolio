@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
-    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/686/686165.png" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="https://cdn-jjpcj.nitrocdn.com/kZSOdDOTPkGmijsJddUlrwhcfkfxNveK/assets/images/optimized/rev-1d57480/animefigure.co.uk/wp-content/uploads/2023/07/animefigure.de-Favicon.png"
+        type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
 </head>
 
 <header>
 
 
-
+    <!-- navegação -->
     <nav class="navbar">
         <ul class="nav-links">
             <li><a href="#sobre">Sobre</a></li>
@@ -21,23 +23,31 @@
             <br>
             <li><a href="#contato">Contato</a></li>
         </ul>
-
+        <div class="select-container">
+            <img src="" alt="Bandeira" class="flag-icon">
+            <select id="idiomaSite" class="idioma-site">
+                <option value="br">Português</option>
+                <option value="us">Inglês</option>
+                <option value="es">Espanhol</option>
+            </select>
+        </div>
     </nav>
 
 
 </header>
 
+
+<!-- sobre -->
 <section id="sobre">
     <div class="sobre">
         <h1>Bem vindo ao meu portfólio!</h1>
         <h1 class="none">Quem sou eu?</h1>
 
-        <img src="" alt="" class="foto-apresentacao">
-
+        <img src="" alt="foto de apresentação" class="foto-apresentacao">
         <p>
             Me chamo <span class="nome"></span> e sou movido pela transformação que a tecnologia é capaz de gerar no
             mundo real. Atualmente, com <span class="idade"></span> anos, estou cursando <span class="curso"></span> na
-            <span class="ensino-superior"></span>, localizada em <span class="local"></span>. Desde o primeiro contato
+            <span class="ensino-superior"></span>, em <span class="local"></span>. Desde o primeiro contato
             com a programação, enxerguei mais do que uma habilidade técnica: encontrei uma forma concreta de resolver
             problemas de forma criativa e eficiente.
 
@@ -57,7 +67,7 @@
     </div>
 </section>
 
-
+<!-- experiência -->
 <section id="experiencia">
     <h1>experiência</h1>
     <span class="experience"></span>
@@ -68,10 +78,22 @@
     <h1>tecnologias</h1>
     <span class="skills"></span>
 
+    <!-- currículo -->
+    <h1>currículo</h1>
+    <div class="curriculo-container">
+        <select class="seletor" id="seletor-curriculo">
+            <option value="pt">Português</option>
+            <option value="en">Inglês</option>
+            <option value="es">Espanhol</option>
+        </select>
+
+        <div class="curriculo" id="curriculo"></div>
+    </div>
+
 </section>
 
 
-
+<!-- contato -->
 <section id="contato">
     <h1>contato</h1>
     <div class="contato">
@@ -100,6 +122,8 @@
         </ul>
     </div>
 </section>
+
+
 <footer>
     <h1><a href="https://github.com/Bryan-M-Almeida">
             <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">BRYAN</a>
