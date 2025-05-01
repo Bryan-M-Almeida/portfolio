@@ -24,6 +24,7 @@ h1 {
     font-size: 2.2em;
     margin-bottom: 10px;
     color: #d1d5db;
+    text-transform: capitalize;
 }
 
 .seletor {
@@ -179,7 +180,7 @@ span {
 
 .skills,
 .projeto,
-.experience {
+.experience, .learning {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -190,9 +191,7 @@ span {
     font-size: 1.8em;
 }
 
-.skills button,
-.projeto button,
-.experience button {
+button{
     padding: 12px 24px;
     border-radius: 12px;
     background: linear-gradient(135deg, #00c9a7, #005b4f);
@@ -205,9 +204,7 @@ span {
     transition: all 0.3s ease;
 }
 
-.skills button:hover,
-.projeto button:hover,
-.experience button:hover {
+button:hover {
     background: linear-gradient(135deg, #7ef9ff, #00c9a7);
     transform: translateY(-5px) scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 201, 167, 0.6);
@@ -215,9 +212,7 @@ span {
 }
 
 
-.skills button:active,
-.projetos button:active,
-.experience button:active {
+button:active {
     box-shadow: inset -4px 4px 0 #111;
     transform: scale(0.98);
 }

@@ -5,12 +5,14 @@ const curriculoDiv = document.getElementById('curriculo');
 fetch('idioma.json')
     .then(response => response.json())
     .then(data => {
+        /* apresentação */
         const apresentacao = document.querySelector('.apresentacao');
         apresentacao.innerHTML = "Me chamo <span class='nome'></span> e sou movido pela transformação que a tecnologia é capaz de gerar no mundo real. Atualmente, com <span class='idade'></span> anos, estou cursando <span class='curso'></span> na <span class='ensino-superior'></span>, em <span class='local'></span>. Desde o primeiro contato com a programação, enxerguei mais do que uma habilidade técnica: encontrei uma forma concreta de resolver problemas de forma criativa e eficiente. Minha trajetória é marcada pela busca incessante por domínio técnico pensamento crítico e entrega de soluções práticas. Tenho experiência sólida no desenvolvimento web, onde aprofundei habilidades em estruturação de interfaces, integração de sistemas e otimização de aplicações. Atualmente atuo como <span class='cargo'>desenvolvedor front-end</span>, com uma transição planejada e estratégica para o fullstack, ampliando minha atuação para o back-end e arquitetura de sistemas. Minha missão é evoluir como um profissional completo, pronto para construir produtos de alto impacto e entrega resultados que façam diferença de verdade no mercado de trabalho.";
 
         /* idioma */
         const imagemBandeira = document.querySelector('.flag-icon');
         const seletorSite = document.getElementById('idiomaSite');
+
         /* options idioma */
         const seletorBr = document.querySelector('.site-seletor-br');
         const seletorUs = document.querySelector('.site-seletor-us');
@@ -35,8 +37,7 @@ fetch('idioma.json')
         const tecnologiasTitulo = document.querySelector('.tecnologias');
         const curriculoTitulo = document.querySelector('.curriculo-titulo');
         const contatoTitulo = document.querySelector('.contatos');
-
-        /* function */
+        const aprendendoTitulo = document.querySelector('.aprendendo-titulo');
 
         /* sobre */
         const foto = document.querySelector('.foto-apresentacao');
@@ -52,14 +53,19 @@ fetch('idioma.json')
 
         /* tecnologias */
         const skills = document.querySelector('.skills');
+
+        /* aprendendo */
+        const aprendizado = document.querySelector('.learning');
+
         /* desenvolvido por */
         const desenvolvedor = document.querySelector('.desenvolvido');
+
         function idiomaDoSite(site) {
             switch (site) {
 
                 /* Português */
                 case 'br':
-                    
+
                     /* nav*/
                     imagemBandeira.src = data.portugues.bandeira.brasil;
                     navSobre.innerHTML = "Sobre";
@@ -85,6 +91,7 @@ fetch('idioma.json')
                     tecnologiasTitulo.innerHTML = data.portugues.titulos.tecnologias;
                     curriculoTitulo.innerHTML = data.portugues.titulos.curriculo;
                     contatoTitulo.innerHTML = data.portugues.titulos.contato;
+                    aprendendoTitulo.innerHTML = data.portugues.titulos.learning;
 
                     /* sobre */
                     foto.src = data.portugues.imagem;
@@ -101,6 +108,10 @@ fetch('idioma.json')
 
                     /* projetos */
                     projetos.innerHTML = data.portugues.projects.join("<br>");
+
+                    /* aprendendo */
+                    aprendizado.innerHTML = data.portugues.learning.join("<br>");
+
                     /* desenvolvido por */
                     desenvolvedor.innerHTML = data.portugues.titulos.desenvolvido;
                     break;
@@ -133,6 +144,7 @@ fetch('idioma.json')
                     tecnologiasTitulo.innerHTML = data.ingles.titles.technologies;
                     curriculoTitulo.innerHTML = data.ingles.titles.resume;
                     contatoTitulo.innerHTML = data.ingles.titles.contact;
+                    aprendendoTitulo.innerHTML = data.ingles.titles.learning;
 
                     /* sobre */
                     foto.src = data.portugues.imagem;
@@ -149,6 +161,11 @@ fetch('idioma.json')
 
                     /* tecnologias */
                     skills.innerHTML = data.ingles.skills.join("<br>");
+
+                    /* aprendendo */
+                    aprendizado.innerHTML = data.ingles.learning.join("<br>");
+
+                    /* desenvolvedor */
                     desenvolvedor.innerHTML = data.ingles.titles.developed;
                     break;
 
@@ -180,6 +197,7 @@ fetch('idioma.json')
                     tecnologiasTitulo.innerHTML = data.espanhol.titulos.tecnologías;
                     curriculoTitulo.innerHTML = data.espanhol.titulos.curriculum;
                     contatoTitulo.innerHTML = data.espanhol.titulos.contacto;
+                    aprendendoTitulo.innerHTML = data.espanhol.titulos.aprendiendo;
 
                     /* sobre */
                     foto.src = data.portugues.imagem;
@@ -197,14 +215,16 @@ fetch('idioma.json')
                     /* tecnologias */
                     skills.innerHTML = data.espanhol.habilidades.join("<br>");
 
+                    /* aprendendo */
+                    aprendizado.innerHTML = data.espanhol.aprendiendo.join("<br>");
+
                     /*desenvolvido por */
                     desenvolvedor.innerHTML = data.espanhol.titulos.desarrollado;
                     break;
 
-
                 /* Padrão --- Português */
                 default:
-                    
+
                     /* nav*/
                     imagemBandeira.src = data.portugues.bandeira.brasil;
                     navSobre.innerHTML = "Sobre";
@@ -246,6 +266,10 @@ fetch('idioma.json')
 
                     /* projetos */
                     projetos.innerHTML = data.portugues.projects.join("<br>");
+
+                    /* aprendendo */
+                    aprendizado.innerHTML = data.portugues.learning.join("<br>");
+
                     /* desenvolvido por */
                     desenvolvedor.innerHTML = data.portugues.titulos.desenvolvido;
             }
@@ -268,11 +292,11 @@ function idiomaDoCurriculo(idioma) {
             break;
         case 'en':
             nomeArquivo = 'curriculos/inglês/CV_Bryan-M-Almeida_Dev_EN.pdf';
-            idiomaTexto = 'Currículo (EN)';
+            idiomaTexto = 'resume (EN)';
             break;
         case 'es':
             nomeArquivo = 'curriculos/espanhol/CV_Bryan-M-Almeida_Dev_ES.pdf';
-            idiomaTexto = 'Currículo (ES)';
+            idiomaTexto = 'Curriculum (ES)';
             break;
         default:
             nomeArquivo = 'curriculo-pt.pdf'; // Default para português
