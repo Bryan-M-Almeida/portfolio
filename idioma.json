@@ -34,7 +34,8 @@
             "<button>Firebase (básico)</button>",
             "<button>MySQL (básico)</button>",
             "<button>APIs</button>",
-            "<button>Computação em Nuvem (básico)</button>"
+            "<button>Computação em Nuvem (básico)</button>",
+            "<button>IA</button>"
         ],
         "contato": {
             "email": "bryanmacieldealmeida06@gmail.com",
@@ -70,7 +71,10 @@
             "<a href='https://bryan-m-almeida.github.io/site-nvidia/'><button>Site inspirado na Nvidia</button></a>",
             "<a href='https://github.com/Bryan-M-Almeida/maquina-de-refrigerante'><button>Máquina de Refrigerante (Python)</button></a>",
             "<a href='https://bryan-m-almeida.github.io/login-registro/'><button>Login e Registro Responsivo</button></a>",
-            "<a href='https://bryan-m-almeida.github.io/c-digo-random-position/'><button>Código de Botão com Posição Aleatória</button></a>"
+            "<a href='https://bryan-m-almeida.github.io/c-digo-random-position/'><button>Código de Botão com Posição Aleatória</button></a>",
+            "<a href='https:https://bryan-m-almeida.github.io/gerador-de-personagem/'><button>Gerador de personagem rpg com IA</button></a>",
+            "<a href='https://bryan-m-almeida.github.io/jogo-adivinhacao/'><button>Jogo de adivinhação</button></a>",
+            "<a href='https://bryan-m-almeida.github.io/escape-do-quadrado/'><button>Jogo escape do quadrado</button></a>"
         ],
         "learning": [
             "<button>APIs REST</button>",
@@ -121,7 +125,8 @@
             "<button>Firebase (básico)</button>",
             "<button>MySQL (básico)</button>",
             "<button>APIs</button>",
-            "<button>Computación en la Nube (básico)</button>"
+            "<button>Computación en la Nube (básico)</button>",
+            "<button>IA</button>"
         ],
         "contacto": {
             "email": "bryanmacieldealmeida06@gmail.com",
@@ -157,7 +162,11 @@
             "<a href='https://bryan-m-almeida.github.io/site-nvidia/'><button>Sitio inspirado en Nvidia</button></a>",
             "<a href='https://github.com/Bryan-M-Almeida/maquina-de-refrigerante'><button>Máquina de Refrescos (Python)</button></a>",
             "<a href='https://bryan-m-almeida.github.io/login-registro/'><button>Inicio de Sesión y Registro Responsivo</button></a>",
-            "<a href='https://bryan-m-almeida.github.io/c-digo-random-position/'><button>Código de Botón con Posición Aleatoria</button></a>"
+            "<a href='https://bryan-m-almeida.github.io/c-digo-random-position/'><button>Código de Botón con Posición Aleatoria</button></a>",
+            "<a href='https:https://bryan-m-almeida.github.io/gerador-de-personagem/'><button>Generador de personaje RPG con IA</button></a>",
+            "<a href='https://bryan-m-almeida.github.io/jogo-adivinhacao/'><button>Juego de adivinanzas</button></a>",
+            "<a href='https://bryan-m-almeida.github.io/escape-do-quadrado/'><button>Juego escapar del cuadrado</button></a>"
+
         ],
         "aprendiendo": [
             "<button>APIs REST</button>",
@@ -203,7 +212,8 @@
             "<button>Firebase (basic)</button>",
             "<button>MySQL (basic)</button>",
             "<button>APIs</button>",
-            "<button>Cloud Computing (basic)</button>"
+            "<button>Cloud Computing (basic)</button>",
+            "<button>AI</button>"
         ],
         "contact": {
             "email": "bryanmacieldealmeida06@gmail.com",
@@ -239,7 +249,11 @@
             "<a href='https://bryan-m-almeida.github.io/site-nvidia/'><button>Nvidia-Inspired Site</button></a>",
             "<a href='https://github.com/Bryan-M-Almeida/maquina-de-refrigerante'><button>Soda Machine (Python)</button></a>",
             "<a href='https://bryan-m-almeida.github.io/login-registro/'><button>Responsive Login and Register</button></a>",
-            "<a href='https://bryan-m-almeida.github.io/c-digo-random-position/'><button>Button Code with Random Position</button></a>"
+            "<a href='https://bryan-m-almeida.github.io/c-digo-random-position/'><button>Button Code with Random Position</button></a>",
+            "<a href='https:https://bryan-m-almeida.github.io/gerador-de-personagem/'><button>AI RPG Character Generator</button></a>",
+            "<a href='https://bryan-m-almeida.github.io/jogo-adivinhacao/'><button>Guessing Game</button></a>",
+            "<a href='https://bryan-m-almeida.github.io/escape-do-quadrado/'><button>Escape the Square Game</button></a>"
+
         ],
         "learning": [
             "<button>REST APIs</button>",
